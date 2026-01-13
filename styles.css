@@ -238,10 +238,18 @@ article.daily-article {
 }
 
 .marg1 {
-    margin-left: 40ex;
+    margin-left: 27ex;
+    margin-right: 27ex;
+    padding: 5ex;
 }
 .widget-article {
+    display: block;
+    width: 40ex;
     position: relative;
+}
+
+.thumb{
+  width: 100%;
 }
 
 img {
@@ -256,4 +264,27 @@ img {
     background-color: #FECE00;
     width: 65ex;
     height: 5px;
+}
+
+.col1 {
+  background-color: white;
+}
+
+.col2 {
+  background-color: black;
+}
+
+.sect1{
+  display: flex;
+  gap: 40px;
+}
+
+.colum1{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+:root {
+  --yellow1: #FECE00; 
 }
