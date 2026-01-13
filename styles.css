@@ -8,59 +8,68 @@ html {
     font-family: sans-serif;
 }
 
-video{
+video {
     width: 30ex;
 }
 
-article, figure, footer, header, main, section {
+article,
+figure,
+footer,
+header,
+main,
+section {
     display: block
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #ffffff;
-  line-height: 1.5;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
 }
 
 .main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #000;
-  border-bottom: 2px solid #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #000;
+    border-bottom: 2px solid #ffcc00;
 }
+
 .logo h1 {
-  font-size: 1.5rem;
-  color: #fff;
+    font-size: 1.5rem;
+    color: #fff;
 }
+
 .main-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
 }
+
 .main-header nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
+
 .main-header nav a:hover {
-  color: #ffcc00;
+    color: #ffcc00;
 }
 
 .main-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background: #000;
-  border-top: 1px solid #333;
-  color: #777;
-  font-size: 0.9rem;
+    text-align: center;
+    padding: 1.5rem;
+    background: #000;
+    border-top: 1px solid #333;
+    color: #777;
+    font-size: 0.9rem;
 }
 
 
@@ -336,4 +345,5 @@ img {
 :root {
   --yellow1: #FECE00; 
 }
+
 
