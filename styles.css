@@ -63,15 +63,104 @@ body {
     color: #ffcc00;
 }
 
-.main-footer {
-    text-align: center;
-    padding: 1.5rem;
-    background: #000;
-    border-top: 1px solid #333;
-    color: #777;
-    font-size: 0.9rem;
+/* FOOTER */
+
+/* ESTILO GENERAL DEL FOOTER */
+
+.ng-footer {
+  background: #000;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding: 50px 0 20px;
+  border-top: 4px solid #ffd200;
 }
 
+.ng-footer a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.ng-footer a:hover {
+  color: #ffd200;
+}
+
+/* PARTE SUPERIOR */
+
+.ng-footer__top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+}
+
+.ng-footer__brand span:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.ng-footer__brand span:last-child {
+  font-size: 18px;
+  margin-left: 5px;
+  color: #ffd200;
+}
+
+.ng-footer__description {
+  margin-top: 10px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+/* COLUMNAS */
+
+.ng-footer__columns {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}
+
+.ng-footer__column h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #ffd200;
+}
+
+.ng-footer__column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ng-footer__column li {
+  margin-bottom: 8px;
+}
+
+.ng-footer__social li {
+  margin-bottom: 6px;
+}
+
+/* PARTE INFERIOR */
+
+.ng-footer__bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 20px 25px 0;
+  border-top: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ng-footer__meta {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  color: #777;
+}
 
 /* 
 ==============================
@@ -343,3 +432,4 @@ img {
 :root {
     --yellow1: #FECE00;
 }
+
