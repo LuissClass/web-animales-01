@@ -332,7 +332,6 @@ Luis exclusive
     color: black;
 }
 
-.txt {}
 
 article.daily-article {
     background-color: #000;
@@ -401,10 +400,16 @@ img {
     width: 100%;
 }
 
-.m-y-line {}
+.s-y-line {
+    background-color: var(--yellow1);
+    width: 4ex;
+    height: 0.3ex;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+}
 
 .g-y-line {
-    background-color: #FECE00;
+    background-color: var(--yellow1);
     width: 65ex;
     height: 5px;
 }
@@ -430,6 +435,193 @@ img {
 
 :root {
     --yellow1: #FECE00;
+}
+
+.user-img {
+    width: 3ex;
+}
+
+.logo {
+    width: 15ex;
+}
+
+.subscribe-button {
+    width: 16ex;
+    margin-left: 160ex;
+    position: absolute;
+}
+
+.subscribe-button > a {
+    display: block;
+    width: 100%;
+    padding: 10px 16px; 
+    background-color: var(--yellow1); 
+    color: black; 
+    text-transform: uppercase; 
+    text-decoration: none;
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+.subscribe-button:hover > a {
+    background-color: black; 
+    color: white;
+}
+
+.navbar-toggle { 
+    cursor: pointer; 
+    position: absolute;
+    margin-left: 30ex;
+} 
+
+.brand {
+    position: absolute;
+    margin-left: 35ex;
+}
+
+.trending-top a{
+    color: white;
+}
+
+.user-txt {
+    color: var(--yellow1);
+}
+
+.main-menu {
+    display: flex;
+    background-color: white;
+    height: 9ex;
+    margin-left: 60ex;
+    gap: 4ex;
+}
+
+.pad1 {
+    margin-top: 3ex;
+}
+
+.navbar-toggle b { 
+    display: block; 
+    width: 30px; 
+    height: 3px; 
+    background: black; 
+    margin: 6px 0; 
+}
+
+.desplegable > a {
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.desp-content {
+    display: none;
+    position: relative;
+}
+
+.desplegable:hover .desp-content {
+    display: block;
+}
+
+.page-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.article-title {
+    color: black;
+}
+
+.article-subtitle {
+    color: black;
+}
+
+.txt {
+    color: black;
+}
+
+.answers > li {
+    list-style: none;
+    padding-left: 0;
+}
+
+.answers li label {
+    background-color: #e6debc;
+    padding: 1.5ex;
+    font-size: 3ex;
+    display: block;
+
+}
+
+
+.answers li label:hover {
+    border: 0.5ex solid var(--yellow1);
+}
+
+.answers input:checked + label {
+    border: 0.5ex solid var(--yellow1);
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 3ex;
+    position: relative;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3ex;
+    margin-bottom: 15ex;
+}
+
+.quest-img {
+    width: 70ex;
+}
+
+.quiz-explanation {
+    display: none;
+    position: relative;
+    font-size: 3.5ex;
+    line-height: 1;
+    max-width: 40ch;
+    color:#333;
+    margin: 3.5ex;
+}
+
+.answers input:checked ~ .quiz-explanation { 
+    display: block;
+}
+
+.trending-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7ex;
+}
+
+.trending-top nav p{
+    display: flex;
+    gap: 3ex;
+}
+
+.trending-top nav p a{
+    text-decoration: none;
+}
+
+.trending-top nav p a:hover{
+    text-decoration:underline;
+}
+
+.navbar-user-access {
+    display: flex;
+    gap: 1ex;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* ==============================
@@ -561,4 +753,5 @@ img {
     text-decoration: none;
     font-weight: bold;
 }
+
 
