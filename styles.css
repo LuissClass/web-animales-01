@@ -92,7 +92,7 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 /* Ocultar radios usados para el toggle */
@@ -179,7 +179,7 @@ body {
     margin-top: 0.25rem;
     border: 1px solid #444;
     background: white;
-    color: #fff;
+    color: black;
     border-radius: 4px;
 }
 
@@ -241,12 +241,11 @@ Luis exclusive
 ============================== 
 */
 
-.title-module{
+.title-module {
     color: black;
 }
 
-.txt {
-}
+.txt {}
 
 article.daily-article {
     background-color: #000;
@@ -279,10 +278,11 @@ article.daily-article {
 
 .txt.daily-article {
     display: flex;
-    flex-direction: column; gap: 1ex;
+    flex-direction: column;
+    gap: 1ex;
 }
 
-.link-all{
+.link-all {
     color: black;
     text-decoration: none;
     width: 100%;
@@ -299,23 +299,22 @@ article.daily-article {
     margin-right: 27ex;
     padding: 5ex;
 }
+
 .widget-article {
     display: block;
     width: 40ex;
     position: relative;
 }
 
-.thumb{
-  width: 100%;
+.thumb {
+    width: 100%;
 }
 
 img {
-    width: 100%; 
+    width: 100%;
 }
 
-.m-y-line {
-
-}
+.m-y-line {}
 
 .g-y-line {
     background-color: #FECE00;
@@ -324,26 +323,24 @@ img {
 }
 
 .col1 {
-  background-color: white;
+    background-color: white;
 }
 
 .col2 {
-  background-color: black;
+    background-color: black;
 }
 
-.sect1{
-  display: flex;
-  gap: 40px;
+.sect1 {
+    display: flex;
+    gap: 40px;
 }
 
-.colum1{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.colum1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 :root {
-  --yellow1: #FECE00; 
+    --yellow1: #FECE00;
 }
-
-
