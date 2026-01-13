@@ -69,6 +69,11 @@ https://www.nationalgeographic.com.es/mundo-animal/unico-mamifero-sangre-fria-bi
   - Encabezado Secundario → El negro  
 - Enlaces y botones para pasar de una página a otra.  
 - Enlaces relativos en alguna de las páginas.  
-- Inserción de vídeo, audio e imágenes.  
+- Inserción de vídeo, audio e imágenes.
+- Modificación de los valores de las líneas de las tablas, incluyendo una celta vacía
+- Utilización de posicionamiento, z-index y transparencia
+- Algún elemento original: (escritura en columnas, menú pegajoso, etc.)
+- Modificación del aspecto de los botones y del formato del cursor en el formulario. El botón de envío debe cambiar de aspecto cuando el cursor pase sobre el.
+- Utilización de Flex Box, en al menos, 1 de las páginas.
 - Utilización de etiquetas semánticas.  
 - Añadir estilos con CSS en fichero diferente al de html.
