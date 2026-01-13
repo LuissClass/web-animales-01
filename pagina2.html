@@ -1,86 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Inicia Sesión | WEB Animales</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicia Sesión | WEB Animales</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="main-header">
-    <div class="logo">
-      <h1>WEB Animales</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="pagina3.html">Suscríbete</a></li>
-        <li><a href="pagina4.html">Test de Animales</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main class="auth-container">
-    <input type="radio" name="auth" id="login-view" checked />
-    <input type="radio" name="auth" id="register-view" />
+    <a href="index.html" class="link">
+        <div class="btn">&lt;</div>
+    </a>
 
-    <div class="panels">
-      <!-- Panel 1: Iniciar sesión -->
-      <div class="panel">
-        <h2>Inicia sesión</h2>
-        <div class="yellow-line"></div>
-        <form>
-          <label for="email-login">Correo electrónico</label>
-          <input type="email" id="email-login" required />
-          
-          <label for="password-login">Contraseña</label>
-          <input type="password" id="password-login" required minlength="8" />
-          
-          <button type="submit">Entrar</button>
-        </form>
-        <p class="toggle-text">¿No tienes cuenta? <label for="register-view">Crear cuenta</label></p>
-      </div>
+    <div class="img-ninio"></div>
 
-      <!-- Panel 2: Crear cuenta -->
-      <div class="panel">
-        <h2>Crear cuenta</h2>
-        <div class="yellow-line"></div>
-        <form>
-          <label for="nombre">Nombre completo</label>
-          <input 
-            type="text" 
-            id="nombre" 
-            required 
-            pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]{2,50}"
-            title="Solo letras y espacios"
-          />
-          
-          <label for="email-registro">Correo electrónico</label>
-          <input type="email" id="email-registro" required />
-          
-          <label for="password-registro">Contraseña</label>
-          <input 
-            type="password" 
-            id="password-registro" 
-            required 
-            minlength="8"
-            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
-            title="8+ caracteres: mayúscula, minúscula y número"
-          />
-          
-          <label for="confirm-password">Confirmar contraseña</label>
-          <input type="password" id="confirm-password" required />
-          
-          <button type="submit">Crear cuenta</button>
-          <button type="reset">Borrar todo</button>
-        </form>
-        <p class="toggle-text">¿Ya tienes cuenta? <label for="login-view">Iniciar sesión</label></p>
-      </div>
-    </div>
-  </main>
+    <main class="auth-container">
 
-  <footer class="main-footer">
-    <p>&copy; 2026 National Geographic. Todos los derechos reservados.</p>
-  </footer>
+        <input type="radio" name="auth" id="login-view" checked />
+        <input type="radio" name="auth" id="register-view" />
+
+        <div class="panels">
+            <!-- Panel 1: Iniciar sesión -->
+            <div class="panel">
+                <h2>Inicia sesión</h2>
+                <div class="yellow-line"></div>
+                <form>
+                    <label for="email-login">Correo electrónico</label>
+                    <input type="email" id="email-login" required />
+
+                    <label for="password-login">Contraseña</label>
+                    <input type="password" id="password-login" required minlength="8" />
+
+                    <button type="submit">Entrar</button>
+                </form>
+                <p class="toggle-text">¿No tienes cuenta? <label for="register-view">Crear cuenta</label></p>
+            </div>
+
+            <!-- Panel 2: Crear cuenta -->
+            <div class="panel">
+                <h2>Crear cuenta</h2>
+                <div class="yellow-line"></div>
+                <form>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]{2,50}"
+                        title="Solo letras y espacios" />
+
+                    <label for="email-registro">Correo electrónico</label>
+                    <input type="email" id="email-registro" required />
+
+                    <label for="password-registro">Contraseña</label>
+                    <input type="password" id="password-registro" required minlength="8"
+                        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+                        title="8+ caracteres: mayúscula, minúscula y número" />
+
+                    <label for="confirm-password">Confirmar contraseña</label>
+                    <input type="password" id="confirm-password" required />
+
+                    <button type="submit">Crear cuenta</button>
+                    <button type="reset">Borrar todo</button>
+                </form>
+                <p class="toggle-text">¿Ya tienes cuenta? <label for="login-view">Iniciar sesión</label></p>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
