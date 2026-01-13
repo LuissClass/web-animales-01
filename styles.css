@@ -14,7 +14,6 @@ video {
 
 article,
 figure,
-footer,
 header,
 main,
 section {
@@ -65,7 +64,7 @@ body {
 
 /* FOOTER */
 
-/* ESTILO GENERAL DEL FOOTER */
+/* ESTILO GENERAL */
 
 .ng-footer {
   background: #000;
@@ -432,4 +431,5 @@ img {
 :root {
     --yellow1: #FECE00;
 }
+
 
