@@ -79,10 +79,9 @@ body {
 ============================== 
 */
 
-body {
+.body2 {
     overflow: hidden;
 }
-
 
 .auth-container {
     width: 100%;
