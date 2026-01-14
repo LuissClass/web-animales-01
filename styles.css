@@ -38,7 +38,7 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     background: #000;
-    border-bottom: 2px solid #ffcc00;
+    border-bottom: 2px solid var(--yellow1);
 }
 
 .logo h1 {
@@ -59,106 +59,105 @@ body {
 }
 
 .main-header nav a:hover {
-    color: #ffcc00;
+    color: var(--yellow1);
 }
 
 /* FOOTER */
-
 /* ESTILO GENERAL */
 
 .ng-footer {
-  background: #000;
-  color: #fff;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  padding: 50px 0 20px;
-  border-top: 4px solid #ffd200;
+    background: #000;
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding: 50px 0 20px;
+    border-top: 4px solid var(--yellow1);
 }
 
 .ng-footer a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.2s ease;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .ng-footer a:hover {
-  color: #ffd200;
+    color: var(--yellow1);
 }
 
 /* PARTE SUPERIOR */
 
 .ng-footer__top {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 25px;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
 }
 
 .ng-footer__brand span:first-child {
-  font-weight: bold;
-  font-size: 22px;
-  letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .ng-footer__brand span:last-child {
-  font-size: 18px;
-  margin-left: 5px;
-  color: #ffd200;
+    font-size: 18px;
+    margin-left: 5px;
+    color: var(--yellow1);
 }
 
 .ng-footer__description {
-  margin-top: 10px;
-  color: #aaa;
-  line-height: 1.5;
+    margin-top: 10px;
+    color: #aaa;
+    line-height: 1.5;
 }
 
 /* COLUMNAS */
 
 .ng-footer__columns {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
 }
 
 .ng-footer__column h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-  color: #ffd200;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--yellow1);
 }
 
 .ng-footer__column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .ng-footer__column li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .ng-footer__social li {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
 }
 
 /* PARTE INFERIOR */
 
 .ng-footer__bottom {
-  max-width: 1200px;
-  margin: 40px auto 0;
-  padding: 20px 25px 0;
-  border-top: 1px solid #333;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 20px 25px 0;
+    border-top: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .ng-footer__meta {
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-  color: #777;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #777;
 }
 
 /* 
@@ -249,7 +248,7 @@ body {
 
 .yellow-line {
     height: 3px;
-    background: #ffcc00;
+    background: var(--yellow1);
     margin: 0.3rem 0 1.5rem;
 }
 
@@ -271,7 +270,7 @@ body {
 }
 
 .panel input:focus {
-    outline: 2px solid #ffcc00;
+    outline: 2px solid var(--yellow1);
 }
 
 .panel button {
@@ -286,22 +285,22 @@ body {
 }
 
 .panel button[type="submit"] {
-    background: #ffcc00;
+    background: var(--yellow1);
     color: black;
 }
 
 .panel button[type="submit"]:hover {
-    background: #ffd733;
+    background: #999595;
 }
 
 .panel button[type="reset"] {
-    background: #ffcc00;
+    background: var(--yellow1);
     color: black;
     margin-top: 0.5rem;
 }
 
 .panel button[type="reset"]:hover {
-    background: #555;
+    background: #999595;
 }
 
 /* Enlaces para cambiar entre formularios */
@@ -313,7 +312,7 @@ body {
 }
 
 .toggle-text label {
-    color: #ffcc00;
+    color: var(--yellow1);
     cursor: pointer;
     text-decoration: underline;
 }
@@ -342,7 +341,7 @@ article.daily-article {
 
 .epigraph {
     font-size: 1.3ex;
-    color: #FECE00;
+    color: var(--yellow1);
     text-transform: uppercase;
 }
 
@@ -451,34 +450,53 @@ img {
     position: absolute;
 }
 
-.subscribe-button > a {
+.subscribe-button>a {
     display: block;
     width: 100%;
-    padding: 10px 16px; 
-    background-color: var(--yellow1); 
-    color: black; 
-    text-transform: uppercase; 
+    padding: 10px 16px;
+    background-color: var(--yellow1);
+    color: black;
+    text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.7s ease, color 0.7s ease;
 }
 
-.subscribe-button:hover > a {
-    background-color: black; 
+.subscribe-button:hover>a {
+    background-color: black;
     color: white;
 }
 
-.navbar-toggle { 
-    cursor: pointer; 
+.navbar-toggle {
+    cursor: pointer;
     position: absolute;
     margin-left: 30ex;
-} 
+}
 
 .brand {
     position: absolute;
     margin-left: 35ex;
 }
 
-.trending-top a{
+.brand a {
+    text-decoration: none;
+}
+
+.brand span:first-child {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.brand span:last-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: var(--yellow1);
+
+}
+
+.trending-top a {
     color: white;
 }
 
@@ -498,15 +516,15 @@ img {
     margin-top: 3ex;
 }
 
-.navbar-toggle b { 
-    display: block; 
-    width: 30px; 
-    height: 3px; 
-    background: black; 
-    margin: 6px 0; 
+.navbar-toggle b {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: black;
+    margin: 6px 0;
 }
 
-.desplegable > a {
+.desplegable>a {
     text-transform: uppercase;
     position: relative;
     text-decoration: none;
@@ -542,7 +560,7 @@ img {
     color: black;
 }
 
-.answers > li {
+.answers>li {
     list-style: none;
     padding-left: 0;
 }
@@ -560,7 +578,7 @@ img {
     border: 0.5ex solid var(--yellow1);
 }
 
-.answers input:checked + label {
+.answers input:checked+label {
     border: 0.5ex solid var(--yellow1);
 }
 
@@ -590,11 +608,11 @@ img {
     font-size: 3.5ex;
     line-height: 1;
     max-width: 40ch;
-    color:#333;
+    color: #333;
     margin: 3.5ex;
 }
 
-.answers input:checked ~ .quiz-explanation { 
+.answers input:checked~.quiz-explanation {
     display: block;
 }
 
@@ -605,17 +623,17 @@ img {
     gap: 7ex;
 }
 
-.trending-top nav p{
+.trending-top nav p {
     display: flex;
     gap: 3ex;
 }
 
-.trending-top nav p a{
+.trending-top nav p a {
     text-decoration: none;
 }
 
-.trending-top nav p a:hover{
-    text-decoration:underline;
+.trending-top nav p a:hover {
+    text-decoration: underline;
 }
 
 .navbar-user-access {
@@ -638,7 +656,7 @@ img {
 /* HEADER  */
 .subs-header {
     background: #000;
-    border-bottom: 4px solid #FECE00;
+    border-bottom: 4px solid var(--yellow1);
     padding: 15px 0;
 }
 
@@ -654,7 +672,7 @@ img {
 .subs-logo {
     font-size: 24px;
     font-weight: bold;
-    color: #FECE00;
+    color: var(--yellow1);
 }
 
 .subs-nav a {
@@ -666,7 +684,7 @@ img {
 
 /* BANNER */
 .subs-banner {
-    background: #FECE00;
+    background: var(--yellow1);
     color: #000;
     text-align: center;
     padding: 12px 0;
@@ -723,7 +741,7 @@ img {
 }
 
 .subs-tag {
-    background: #FECE00;
+    background: var(--yellow1);
     color: #000;
     padding: 4px 10px;
     border-radius: 4px;
@@ -734,7 +752,7 @@ img {
 .subs-price {
     font-size: 32px;
     font-weight: bold;
-    color: #FECE00;
+    color: var(--yellow1);
     margin: 15px 0;
 }
 
@@ -748,7 +766,7 @@ img {
 .subs-btn {
     display: inline-block;
     background: #000;
-    color: #FECE00;
+    color: var(--yellow1);
     padding: 12px 20px;
     border-radius: 4px;
     text-decoration: none;
@@ -816,13 +834,13 @@ img {
     font-size: 26px;
     margin: 40px 0 15px;
     color: #000;
-    border-left: 6px solid #FECE00;
+    border-left: 6px solid var(--yellow1);
     padding-left: 10px;
 }
 
 /* CITA DESTACADA */
 .art-quote {
-    border-left: 4px solid #FECE00;
+    border-left: 4px solid var(--yellow1);
     padding-left: 15px;
     margin: 25px 0;
     font-style: italic;
@@ -832,7 +850,7 @@ img {
 /* BLOQUE DESTACADO */
 .art-highlight {
     background: #FFF7CC;
-    border-left: 6px solid #FECE00;
+    border-left: 6px solid var(--yellow1);
     padding: 15px;
     margin: 25px 0;
     font-size: 17px;
@@ -844,72 +862,72 @@ img {
 ============================== */
 
 .art-body {
-  background: #000;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .art-wrapper {
-  background: #000;
-  padding: 40px 0;
-  display: flex;
-  justify-content: center;
+    background: #000;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .art-article {
-  background: #fff;
-  width: 70%;
-  max-width: 900px;
-  padding: 40px;
-  border-radius: 4px;
+    background: #fff;
+    width: 70%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 4px;
 }
 
 .art-hero img {
-  width: 100%;
-  border-radius: 4px;
-  margin-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 .art-title {
-  font-size: 38px;
-  margin-bottom: 10px;
-  color: #000;
-  font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
 }
 
 .art-subtitle {
-  font-size: 20px;
-  color: #555;
-  margin-bottom: 30px;
-  font-style: italic;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    font-style: italic;
 }
 
 .art-article p {
-  font-size: 18px;
-  line-height: 1.7;
-  margin-bottom: 20px;
-  color: #333;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .art-section-title {
-  font-size: 26px;
-  margin: 40px 0 15px;
-  color: #000;
-  border-left: 6px solid #FECE00;
-  padding-left: 10px;
+    font-size: 26px;
+    margin: 40px 0 15px;
+    color: #000;
+    border-left: 6px solid var(--yellow1);
+    padding-left: 10px;
 }
 
 .art-quote {
-  border-left: 4px solid #FECE00;
-  padding-left: 15px;
-  margin: 25px 0;
-  font-style: italic;
-  color: #444;
+    border-left: 4px solid var(--yellow1);
+    padding-left: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #444;
 }
 
 .art-highlight {
-  background: #FFF7CC;
-  border-left: 6px solid #FECE00;
-  padding: 15px;
-  margin: 25px 0;
-  font-size: 17px;
+    background: var(--yellow1);
+    border-left: 6px solid var(--yellow1);
+    padding: 15px;
+    margin: 25px 0;
+    font-size: 17px;
 }
