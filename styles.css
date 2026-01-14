@@ -187,7 +187,7 @@ body {
 }
 
 .img-ninio {
-    width: 750px;
+    width: 90ex;
     background-image: url('Animales_files/Images/imagenpagina2.jpg');
     background-size: 102%;
     background-position: top center;
@@ -931,3 +931,4 @@ img {
     margin: 25px 0;
     font-size: 17px;
 }
+
