@@ -323,7 +323,7 @@ body {
 
 /* 
 ==============================
-Luis exclusive
+INDEX Y ENCABEZADO
 ============================== 
 */
 
@@ -351,6 +351,7 @@ article.daily-article {
 
 .subtitle {
     font-size: 1.6ex;
+    color: white;
 }
 
 .title .daily-article {
@@ -371,6 +372,11 @@ article.daily-article {
     color: black;
     text-decoration: none;
     width: 100%;
+}
+
+.link-all:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow1);
 }
 
 .nombre {
@@ -395,6 +401,34 @@ article.daily-article {
     width: 100%;
 }
 
+.daily-thumb {
+    width: 100%;
+}
+
+.thumb video {
+    min-width: 40ex;
+}
+
+.thumb > img {
+    min-width: 40ex;
+    max-width: 40ex;;
+    max-height: 20ex;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-articles {
+    margin-top: 6ex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: -10ex;
+}
+.main-articles > div {
+    width: 45ex;
+    margin-bottom: 4ex;
+
+}
+
 img {
     width: 100%;
 }
@@ -402,6 +436,7 @@ img {
 .s-y-line {
     background-color: var(--yellow1);
     width: 4ex;
+    max-width: 4ex;
     height: 0.3ex;
     margin-top: 0.5ex;
     margin-bottom: 0.5ex;
@@ -546,6 +581,7 @@ img {
     z-index: 2;
     background-color: white;
     padding: auto;
+    box-shadow: 0 6px 6px -4px rgba(0,0,0,0.3);
 }
 
 .article-title {
@@ -931,4 +967,255 @@ img {
     margin: 25px 0;
     font-size: 17px;
 }
+
+/* BANNER */
+.subs-banner {
+    background: var(--yellow1);
+    color: #000;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* HERO */
+.subs-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.subs-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subs-hero p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* TARJETAS */
+.subs-cards-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 30px;
+}
+
+.subs-card {
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 25px;
+    border: 2px solid #000000;
+}
+
+.subs-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subs-card-header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.subs-tag {
+    background: var(--yellow1);
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subs-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--yellow1);
+    margin: 15px 0;
+}
+
+.subs-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.subs-btn {
+    display: inline-block;
+    background: #000;
+    color: var(--yellow1);
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ==============================
+   PÁGINA 6 — ARTÍCULO
+============================== */
+
+.art-body {
+    background: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* CONTENEDOR GENERAL */
+.art-wrapper {
+    background: #000;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* COLUMNA CENTRAL */
+.art-article {
+    background: #fff;
+    width: 70%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+/* IMAGEN PRINCIPAL */
+.art-hero img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* TÍTULOS */
+.art-title {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.art-subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* TEXTO */
+.art-article p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* SUBTÍTULOS */
+.art-section-title {
+    font-size: 26px;
+    margin: 40px 0 15px;
+    color: #000;
+    border-left: 6px solid var(--yellow1);
+    padding-left: 10px;
+}
+
+/* CITA DESTACADA */
+.art-quote {
+    border-left: 4px solid var(--yellow1);
+    padding-left: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #444;
+}
+
+/* BLOQUE DESTACADO */
+.art-highlight {
+    background: #FFF7CC;
+    border-left: 6px solid var(--yellow1);
+    padding: 15px;
+    margin: 25px 0;
+    font-size: 17px;
+    color: black;
+}
+
+/* ==============================
+   PÁGINA 7 — POLILLA ARTÍCULO
+============================== */
+
+.art-body {
+    background: #000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.art-wrapper {
+    background: #000;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.art-article {
+    background: #fff;
+    width: 70%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.art-hero img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.art-title {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.art-subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.art-article p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.art-section-title {
+    font-size: 26px;
+    margin: 40px 0 15px;
+    color: #000;
+    border-left: 6px solid var(--yellow1);
+    padding-left: 10px;
+}
+
+.art-quote {
+    border-left: 4px solid var(--yellow1);
+    padding-left: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #444;
+}
+
+.art-highlight {
+    background: var(--yellow1);
+    border-left: 6px solid var(--yellow1);
+    padding: 15px;
+    margin: 25px 0;
+    font-size: 17px;
+}
+
 
