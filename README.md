@@ -33,7 +33,7 @@ https://www.nationalgeographic.com.es/mundo-animal
 
 ---
 
-## 4) Test de Animales (LUIS)
+## 4) Test de Animales (LUIS) ( DEJÓ DE EXISTIR ) 
 
 - Los cuadrados son lo mismo que para los artículos, solo que las img llevan borde amarillo
 - Con un botón de “TEST ALEATORIO” que siempre lleva al Test de Jirafas
